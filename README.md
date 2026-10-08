@@ -1,15 +1,13 @@
-# PlayVerse Sports + Puzzles
+# PlayVerse Sports + Puzzles v2
 
-Mobile-first PWA containing original short-session sports and puzzle games.
-Every game supports 1–5 minute rounds selected by the player.
-
-Included playable games:
-Sports: Arrow Zen, Hoop Rush, Goal Strike, Table Rally, Target Toss, Sprint Dash
-Puzzles: Memory Matrix, Number Rush, Color Circuit, Pattern Pulse, Tile Shift, Path Finder
-
-No external game assets, logos, characters, or copied game code are used.
+Fixes:
+- Corrected JavaScript syntax error that caused a blank screen.
+- Added visible startup error fallback.
+- Service worker cache bumped and navigation is network-first.
+- Added fresh 192x192 and 512x512 PNG app icons using the approved PlayVerse anime/stopwatch artwork.
+- Manifest updated for Android/PWA installation.
 
 Cloudflare:
-- Build command: None
-- Deploy command: npx wrangler deploy
-- Root directory: /
+Build command: None
+Deploy command: npx wrangler deploy
+Root directory: /
